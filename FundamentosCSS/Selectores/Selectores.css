@@ -1,0 +1,44 @@
+h1 {
+    flex: 3;
+    background-color: black;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: 5px 5px;
+}
+
+p {
+    color:rgb(193 185 4);
+}
+
+.flex-contenedor {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content:first center;
+    align-items: end;
+}
+
+.span-anidado > span {
+    color:blue;
+}
+
+.Texto-grande {
+    flex: 1;
+    background-color: forestgreen;
+    font-size: 50px;
+    font-style: italic;
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    display: block;
+}
+
+#Segundo-parrafo{
+    font-size: 10px;
+}
+
+
+    

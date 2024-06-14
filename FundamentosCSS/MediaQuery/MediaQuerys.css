@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px){
+    .visible-mobile{
+        display:block;
+        background-color: blue;
+    }
+    .visible-desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 601px){
+    .visible-mobile{
+        display:none
+    }
+    .visible-desktop{
+        display: block;
+        background-color: red;
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso y Modificacion del DOM</title>
+</head>
+<body>
+    <h1>Mi Pagina Web</h1>
+    <p id="parrafo">Este es un parrafo de ejemplo</p>
+    <span class="texto-corto">Este es un texto corto</span>
+    <form id="formulario1">
+        <input type="usuario">
+    </form>
+    <form id="formulario2">
+        <input type="usuario">
+    </form>
+    <script>
+        function obtenerElemento(){
+            const h1 = document.getElementsByTagName('h1')[0];
+            const parrafo = document.getElementById('parrafo');
+            const span = document.getElementsByClassName('texto-corto')[0];
+            const primerInput = document.getElementsByName('usuario')[0];
+            const segundoInput = document.querySelector('form#formulario2 input[name=usuario]');
+        }
+        obtenerElemento();
+    </script>
+</body>
+</html>

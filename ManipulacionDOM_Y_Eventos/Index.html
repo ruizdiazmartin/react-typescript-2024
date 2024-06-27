@@ -18,10 +18,17 @@
     <script>
         function obtenerElemento(){
             const h1 = document.getElementsByTagName('h1')[0];
+            h1.textContent = 'Hola amigos';
             const parrafo = document.getElementById('parrafo');
+            parrafo.textContent = 'Este texto cambio';
             const span = document.getElementsByClassName('texto-corto')[0];
+            span.textContent = 'Este texto tambien cambio';
             const primerInput = document.getElementsByName('usuario')[0];
+            primerInput.value = 'Usuario1';
+            primerInput.type = 'text';
             const segundoInput = document.querySelector('form#formulario2 input[name=usuario]');
+            segundoInput.value = 'Usuario2';
+            segundoInput.style = 'background: red';
         }
         obtenerElemento();
     </script>

@@ -13,9 +13,8 @@ class Persona {
     }  
 };
 
-const people = new Persona('Martin', 43);
-
-console.log(people.saludar());
+const persona = new Persona('Martin', 43);
+persona.saludar();
 
 //Declaro una interfaz del tipo Persona, las interfaces no se pueden instanciar.
 /*interface IPersona {

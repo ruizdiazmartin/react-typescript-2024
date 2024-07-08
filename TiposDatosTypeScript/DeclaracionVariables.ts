@@ -30,4 +30,6 @@ const persona: {nombre: string, apellido: string, edad?: number, direccion: {cal
 };
 
 persona.edad = 45;
+
+
     
